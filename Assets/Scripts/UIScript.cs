@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class UIScript : MonoBehaviour
 {
   Text speedText;
+
   void Start()
   {
     speedText = GameObject.Find("SpeedText").GetComponent<Text>();
